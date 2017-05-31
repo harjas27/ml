@@ -1,3 +1,7 @@
+import pandas as pd
+import numpy as np
+from sklearn import preprocessing,cross_validation,neighbors,svm
+train = pd.read_csv('train.csv')
 #predicton making
 
 # Import the Numpy library
